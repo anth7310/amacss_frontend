@@ -1,14 +1,15 @@
+// team data for 2019-2020
 const EXECUTIVE_TEAM = [
     {
         name: 'Bonika Verma',
         image: 'sonika.jpg',
-        role: 'Honorary President',
+        role: 'Co-President',
         linkedin: 'https://www.linkedin.com/in/sonika-verma-a068a8132/',
     },
     {
         name: 'Daniel Zhao',
-        image: 'daniel.jpg',
-        role: 'President',
+        image: 'missing.jpg',
+        role: 'Co-President',
         linkedin: '',
     },
     {
@@ -46,14 +47,14 @@ const ACADEMICS_TEAM = [
         description: ''
     },
     {
-        name: 'Vacant(available)',
+        name: 'Vacant',
         image: 'missing.jpg',
         role: 'Math Representative',
         linkedin: '',
         description: ''
     },
     {
-        name: 'Vacant(available)',
+        name: 'Vacant',
         image: 'missing.jpg',
         role: 'Stats Representative',
         linkedin: '',
@@ -73,12 +74,18 @@ const OPERATIONS_TEAM = [
         image: 'missing.jpg',
         role: 'Events Director',
         linkedin: '',
+    },
+    {
+        name: 'Anaqi Amir',
+        image: 'missing.jpg',
+        role: 'External Affairs Director',
+        linkedin: '',
     }
 ];
 */
 const EVENTS_TEAM = [
     {
-        name: 'COVID-19(jk)',
+        name: 'COVID-19',
         image: 'covid-19.jpg',
         role: 'Events Mangler',
         linkedin: '',
@@ -86,12 +93,6 @@ const EVENTS_TEAM = [
     {
         name: 'Shashwat Doshi',
         image: 'missing.jpg',
-        role: 'Events Director',
-        linkedin: '',
-    },
-    {
-        name: 'Keia Rahmati',
-        image: 'keia.jpg',
         role: 'Events Director',
         linkedin: '',
     },
@@ -110,7 +111,7 @@ const TECH_TEAM = [
         linkedin: '',
     },
     {
-        name: 'Jacky Zhuang',
+        name: 'Calvin Guo',
         image: 'missing.jpg',
         role: 'Developer',
         linkedin: '',
@@ -152,18 +153,17 @@ const FINANCE_TEAM = [
 ];
 const FIRST_YEAR_TEAM = [
     {
-        name: 'Coming Soon™(available)',
+        name: 'Coming Soon™',
         image: 'missing.jpg',
         role: 'First Year Representative',
         linkedin: '',
     },
     {
-        name: 'Coming Soon™(available)',
+        name: 'Coming Soon™',
         image: 'missing.jpg',
         role: 'First Year Representative',
         linkedin: '',
     },
 ];
 
-//export {EXECUTIVE_TEAM, ACADEMICS_TEAM, OPERATIONS_TEAM, TECH_TEAM, EVENTS_TEAM, MARKETING_TEAM, FIRST_YEAR_TEAM};
 export {EXECUTIVE_TEAM, ACADEMICS_TEAM, FINANCE_TEAM, TECH_TEAM, EVENTS_TEAM, MARKETING_TEAM, FIRST_YEAR_TEAM};

@@ -1,3 +1,4 @@
+// temp data for 2018
 const EXECUTIVE_TEAM = [
     {
         name: 'Bonika Verma',

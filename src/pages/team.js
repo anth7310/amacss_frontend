@@ -26,10 +26,12 @@ var items = {
     "First Year Representatives": FIRST_YEAR_TEAM
 }
 
+const year=2020;
+
 const TeamPage = () => (
     <Layout>
         <Navbar/>
-        <Team items={items} />
+        <Team items={items} year={year}/>
         <Footer/>
     </Layout>
 );

@@ -6,7 +6,7 @@ import {Container, Section} from '@components/global';
 import ExternalLink from '../common/ExternalLink';
 
 
-const Team = ({items}) => (
+const Team = ({items, year}) => (
     <StaticQuery
         query={graphql`
       query {
@@ -27,7 +27,7 @@ const Team = ({items}) => (
         render={data => (
             <Section id="team">
                 <Container style={{position: 'relative'}}>
-                    <h1>The Team 2020-2021</h1>
+                    <h1>The Team {year}-{year+1}</h1>
                     {Object.entries(items).map(([teamName, teamObj]) => {
                         return (
                         <div>
